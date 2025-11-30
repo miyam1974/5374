@@ -1,17 +1,16 @@
 # 5374について
 For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
-##「いつ、どのゴミが収集されているのか？」
+
+## 「いつ、どのゴミが収集されているのか？」
 
 ゴミの問題はどの地域でも深刻になりつつあります。
- [Code for Kanazawa](http://codeforkanazawa.org/)
+ [Code for Kanazawa](https://codeforkanazawa.org/)
 では、先ずは正しいゴミの捨て方に注目しました。例えばお引っ越しをされた場合、このアプリを使えばすぐに分かるように、目的と使い方をとてもシンプルにデザインしました。
 
 ## ブランチの運用について
 
 * **master**: ローカライズをする場合にはこのブランチをforkしてください (2014/5/7 updated v1.1)
-* **kanazawa**: 5374の金沢バージョン
-* **gh-pages**: 5374の金沢バージョンリリースブランチ
-* **dev**: 今後kanazawaへ適用予定の開発ブランチ
+* **shinjuku**: 5374の東京都新宿区バージョン
 
 ## 使い方について
 
@@ -32,3 +31,14 @@ For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
 
 本アプリ及びソースコードの著作権はCode for Kanazawaに帰属します。
 但し、このソースコードは[MPL](http://www.mozilla.org/MPL/2.0/)のもと配布されています。MPLに従えば、どなたでも利用、改変、及び再配布が可能です。
+
+## Contributers in 新宿
+
+[miyam1974](http://github.com/miyam1974)
+
+## 東京都新宿区版
+
+- https://github.com/miyam1974/5374/tree/shinjuku
+    - 開発用
+- https://github.com/miyam1974/5374/tree/gh-pages
+    - 公開用

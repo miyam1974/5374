@@ -24,4 +24,4 @@ YOUR_CITYが公開しているオープンデータをもとにしています�
 
 ## Contributers in YOUR_CITY
 
-[YOUR_NAME](http://github.com/YOUR_NAME)
+[miyam1974](http://github.com/miyam1974)

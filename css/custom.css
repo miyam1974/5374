@@ -51,9 +51,6 @@ a:hover {
 	position: absolute;
 	padding-left: 10px;
 }
-/* 指定日・直近日付 */
-#accordion .date {
-}
 /* 分別方法の頭文字(ふりがな) */
 #accordion .initials {
 	color: #ffffff;
@@ -115,7 +112,32 @@ a:hover {
 #accordion3 #help {
 	margin-left: 5px;
 }
+#caption > p > a{
+	color: #FF0000;
+	text-decoration: underline;
+}
+#special-notes {
+	margin-left: 15px;
+}
+#special-notes h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#special-notes a {
+	color: #0969da;
+	text-decoration: underline;
+}
 
+/*!
+ * 東京都新宿区版
+ */
+#title-section {
+	margin-left: 15px;
+}
+#title-section h2 {
+	font-size: 25px;
+	margin-top: 20px;
+}
 /*!
  * Maybe not in use. Remove these later.
  */
@@ -126,10 +148,24 @@ a:hover {
 #gps_area {
 	margin-top: 5px;
 }
+/* プルダウンの「地域を選択してください」を太字の赤字に（閉じている時） */
+#select_area.not-selected {
+	font-weight: bold;
+	color: #FF0000;
+}
+/* プルダウンが開いた時のオプションリストの色をリセット */
+#select_area.not-selected option {
+	color: initial;
+	font-weight: normal;
+}
+#select_area.not-selected option[value="-1"] {
+	color: #FF0000;
+	font-weight: bold;
+}
 .accordion-group-top {
 	background-color: #ffffff;
 }
 #cfk > p > a{
-	 color: #FF0000;
-	 text-decoration: underline;
+	color: #FF0000;
+	text-decoration: underline;
 }

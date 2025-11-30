@@ -453,6 +453,12 @@ $(function() {
         }
         //HTMLへの適応
         area_select_form.html(select_html);
+        // プルダウンが閉じている時のスタイルを適用
+        if (area_select_form.val() == "-1") {
+          area_select_form.addClass("not-selected");
+        } else {
+          area_select_form.removeClass("not-selected");
+        }
         area_select_form.change();
       });
     });
@@ -647,6 +653,12 @@ $(function() {
   //リストが選択されたら
   $("#select_area").change(function(data) {
     var row_index = $(data.target).val();
+    // プルダウンが閉じている時のスタイルを適用
+    if (row_index == "-1") {
+      $(data.target).addClass("not-selected");
+    } else {
+      $(data.target).removeClass("not-selected");
+    }
     onChangeSelect(row_index);
   });
 
